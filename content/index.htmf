@@ -1,0 +1,29 @@
+layout: false
+Aliases: /haha
+
+<!doctype html>
+<html>
+<head>
+  <title>Hello world</title>
+</head>
+<body>
+  
+  <h1>Hello world</h1>
+
+  <p>
+    This page (index.htmf), despite being plain html, has been indexed by Hardwired, can be accessed without an extension, and can leverage metadata. If you type /haha into the browser (following the domain), you'll be 301 redirected back to this page. 
+
+    If any template engines were installed, we could do much more interesting things.
+
+  </p>
+
+  <ul> <li>
+    <a href="/page.html">Go to a static page</a>
+    </li>
+    <li>
+
+    <a href="/hidden">Try to visit a page hidden via metadata.</a> Clicking this link will take you to a sinatra error page, since we haven't set up a 404.
+    </li>
+    </ul>
+</body>
+</html>
